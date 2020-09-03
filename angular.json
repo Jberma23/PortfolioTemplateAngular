@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular-Portfolio"
+    }
+  },
+  "defaultProject": "Angular-Portfolio",
+  "cli": {
+    "analytics": false
+  }
 }
