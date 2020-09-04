@@ -150,6 +150,7 @@ export class AppComponent {
         "imgurl": "../assets/images/Template-images/Project4.jpg",
         "projectLink": "Project 4 Url"
       }
+      // Replace Project1.jpg - Project4.jpg in ../assets/images/Template-images. With your own screenshots of your projects
     ],
     "testimonials": [
       {
