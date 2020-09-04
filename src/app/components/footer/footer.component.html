@@ -1,0 +1,15 @@
+<footer>
+    <div class="row">
+        <div class="twelve columns">
+            <ul class="social-links">
+                <li *ngFor="let item of this.resumeData.socialLinks">
+                    <a href="{{item.url}}" target="_blank">
+                        <i [ngClass]="item.className"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+    </div>
+</footer>

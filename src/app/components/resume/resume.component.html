@@ -1,0 +1,83 @@
+<section id="resume">
+
+    <div class="row education">
+
+        <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+            <div class="row item" *ngFor="let educationItem of this.resumeData.education">
+                <div class="twelve columns">
+                    <h3>{{educationItem.UniversityName}}</h3>
+                    <p class="info">
+                        {{educationItem.specialization}}
+                        <span>&bull;</span> <em class="date">{{educationItem.MonthOfPassing}}
+                            {{educationItem.YearOfPassing}}</em></p>
+                    <p>
+                        {{educationItem.Achievements}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row work">
+        <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+            <div class="row item" *ngFor="let workItem of this.resumeData.work">
+                <div class="twelve columns">
+                    <h3>{{workItem.CompanyName}}</h3>
+                    <p class="info">
+                        {{workItem.specialization}}
+                        <span>&bull;</span> <em class="date">{{workItem.MonthOfBeginning}}
+                            {{workItem.YearOfBeginning}}</em> -
+                        <em class="date">{{workItem.MonthOfLeaving}} {{workItem.YearOfLeaving}}</em></p>
+                    <p>
+                        + {{workItem.Achievements[0]}}
+                        <br />
+                        + {{workItem.Achievements[1]}}
+                        <br />
+                        + {{workItem.Achievements[2]}}
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="row skill">
+
+        <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+
+            <p>
+                {{this.resumeData.skillsDescription}}
+            </p>
+
+            <div class="bars">
+
+                <ul class="skills" *ngFor="let item of this.resumeData.skills">
+                    <li>
+                        <span ngClass="{{'bar-expand ' + item.skillname.split(' ').join('').toLowerCase()}}">
+                        </span><em>{{item.skillname}}</em>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+</section>

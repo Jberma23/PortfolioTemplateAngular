@@ -1,0 +1,23 @@
+<section id="testimonials">
+    <div class="text-container">
+        <div class="row">
+            <div class="two columns header-col">
+                <h1><span>Client Testimonials</span></h1>
+            </div>
+            <div class="ten columns flex-container">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li *ngFor="let testimonialItem of this.resumeData.testimonials">
+                            <blockquote>
+                                <p>
+                                    {{testimonialItem.description}}
+                                </p>
+                                <cite>{{testimonialItem.name}}</cite>
+                            </blockquote>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
