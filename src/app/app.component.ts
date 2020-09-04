@@ -141,7 +141,7 @@ export class AppComponent {
       {
         "name": "Project 3",
         "description": "Project 3 Description",
-        "imgurl": "../assets/images/Template-images/Project3.png",
+        "imgurl": "../assets/images/Template-images/Project3.jpg",
         "projectLink": "Project 3 Url"
       },
       {
