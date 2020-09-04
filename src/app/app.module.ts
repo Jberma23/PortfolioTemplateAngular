@@ -10,7 +10,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ResumeComponent } from './components/resume/resume.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
-import { ResumeDataComponent } from './components/resume-data/resume-data.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +20,7 @@ import { ResumeDataComponent } from './components/resume-data/resume-data.compon
     HeaderComponent,
     PortfolioComponent,
     ResumeComponent,
-    TestimonialsComponent,
-    ResumeDataComponent
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,

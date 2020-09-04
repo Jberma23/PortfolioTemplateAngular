@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/Template-images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -324,117 +324,60 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-.javascript{
+
+/* Edit skills here */
+.skill1{
    width: 75%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 
 }
-.ruby{
-   width: 90%;
+.skill2{
+   width: 40%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
-.rubyonrails{
-   width: 85%;
+.skill3{
+   width: 20%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 } 
-.html{
+.skill4{
    width: 90%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
-.react{
-   width: 80%;
-   -moz-animation: photoshop 2s ease;
-   -webkit-animation: photoshop 2s ease;
-}
-.redux{
+.skill5{
    width: 50%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
-.php{
-   width: 80%;
+.skill6{
+   width: 0%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
-.angular{
-   width: 80%;
+.skill7{
+   width: 70%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
-.oracle{
-   width: 80%;
+.skill8{
+   width: 100%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
-.bootstrap {
-  	width: 90%;
+.skill9{
+   width: 10%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
+.skill10 {
+  	width: 85%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.sql {
-  	width: 70%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.apis {
-  	width: 65%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.materialui {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 70%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
-.json {
-   width: 99%;
-   -moz-animation: jquery 2s ease;
-   -webkit-animation: jquery 2s ease;
-}
-.semanticui {
-   width: 80%;
-   -moz-animation: jquery 2s ease;
-   -webkit-animation: jquery 2s ease;
-}
-.github {
-   width: 75%;
-   -moz-animation: jquery 2s ease;
-   -webkit-animation: jquery 2s ease;
-}
-.ajax {
-   width: 60%;
-   -moz-animation: jquery 2s ease;
-   -webkit-animation: jquery 2s ease;
-}
-.aws {
-   width: 40%;
-   -moz-animation: jquery 2s ease;
-   -webkit-animation: jquery 2s ease;
-}
-.heroku {
-   width: 60%;
-   -moz-animation: jquery 2s ease;
-   -webkit-animation: jquery 2s ease;
-}
+
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -539,7 +482,7 @@ ul#nav li.current a { color: #F06000; }
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 
-   background: url(../images/overlay-bg.png) repeat;
+   background: url('../images/Template-images/overlay-bg.png') repeat;
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
@@ -719,7 +662,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url('../images/Template-images/testimonials-bg.jpg') no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;

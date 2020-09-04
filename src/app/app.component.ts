@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ResumeDataComponent } from './components/resume-data/resume-data.component'
 import { HeaderComponent } from './components/header/header.component'
 
 @Component({
@@ -11,184 +10,157 @@ export class AppComponent {
   title = 'Angular-Portfolio';
   resumeData = {
     "imagebaseurl": "",
-    "name": "Jesse Berman",
-    "role": "Full-Stack Web Developer",
-    "linkedinId": "jesse-berman-b0965715b",
+    "name": "Your Name Here",
+    "role": "Your Role",
+    "linkedinId": "Your linkedin-id here",
     "skypeid": "Your skypeid",
-    "roleDescription": "I have always been intrigued by DIY or building projects that enabled me to express my creativity. I fell in love with Full-Stack development because, it allows me to build programs from start to finish, innovate projects, and be creative.",
+    "roleDescription": "Your role description",
     "socialLinks": [
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/jesse-berman-b0965715b",
+        "url": "Your Linkedin profile url",
         "className": "fa fa-linkedin"
       },
       {
         "name": "github",
-        "url": "https://github.com/Jberma23",
+        "url": "Linke to your github repo",
         "className": "fa fa-github"
       },
       {
         "name": "blog",
-        "url": "https://medium.com/@jesse.ben.berman",
+        "url": "Link to your blog",
         "className": "fa fa-pencil"
+      },
+      {
+        "name": "email",
+        "url": "Your Email"
       }
     ],
-    "aboutme": "I am a Full stack web developer with a passion for entrepreneurship and innovation. With experience in Ruby on Rails, Oracle, PHP, Angular, JavaScript, and React and a background in economics. While I have always had a love for projects that allowed me to be creative I found my love for coding through my dream to one day be an entrepreneur. I bring strong skills in team-building and project management that help companies scale and grow.",
-    "address": "Washington, DC",
-    "website": "https://github.com/Jberma23",
-    "Email": "jesse.ben.berman@gmail.com",
+    "aboutme": "About me",
+    "address": "Location",
+    "website": "Your website",
+    "Email": "Email",
     "education": [
       {
-        "UniversityName": "Flatiron School",
-        "specialization": "Software Engineering",
-        "MonthOfPassing": "October",
-        "YearOfPassing": "2019"
+        "UniversityName": "School #1",
+        "specialization": "Major",
+        "MonthOfPassing": "Month",
+        "YearOfPassing": "Year"
       },
       {
-        "UniversityName": "The University of Maryland",
-        "specialization": "Economics",
-        "MonthOfPassing": "May",
-        "YearOfPassing": "2019",
-        "Achievements": "Dean’s List Spring 2019, Study Abroad Internship in Guatemala, Summer 2018"
+        "UniversityName": "School #2",
+        "specialization": "Major",
+        "MonthOfPassing": "Month",
+        "YearOfPassing": "Year",
+        "Achievements": "Achievements"
       },
       {
-        "UniversityName": "Montgomery College",
-        "specialization": "Business, General Studies",
-        "MonthOfPassing": "May",
-        "YearOfPassing": "2016",
-        "Achievements": "Dean’s List: Fall 2015 & Fall 2016"
+        "UniversityName": "School #3",
+        "specialization": "Major",
+        "MonthOfPassing": "Month",
+        "YearOfPassing": "Year",
+        "Achievements": "Achievements"
       }
     ],
     "work": [
       {
-        "CompanyName": "IMG-Crown",
-        "specialization": "Web Applications Developer",
-        "MonthOfBeginning": "January",
-        "YearOfBeginning": "2020",
-        "MonthOfLeaving": "Current",
-        "YearOfLeaving": "",
-        "Achievements": ["Loading, processing, and publishing large datasets and managing server sites and databases", "Created and currently maintaining an Angular application to manage data processing, procedures, and trouble shooting with a easy to use, user-friendly web-application", "Updating and maintaining an Oracle database to be efficient as well as adding new functionality and datasets when necessary", "Working within a team using Scrum Framework which included daily meetings, working on project together, and communicating with the team and our clients often"]
+        "CompanyName": "Job #1",
+        "specialization": "Title",
+        "MonthOfBeginning": "Month Start",
+        "YearOfBeginning": "Year Start",
+        "MonthOfLeaving": "Month End",
+        "YearOfLeaving": "Year end",
+        "Achievements": ["Achievement #1", "Achievement #2", "Achievement #3", "Achievement #4"]
       },
       {
-        "CompanyName": "Social Entrepreneur Corp",
-        "specialization": "Consulting Intern",
-        "MonthOfBeginning": "June",
-        "YearOfBeginning": "2018",
-        "MonthOfLeaving": "Aug",
-        "YearOfLeaving": "2018",
-        "Achievements": ["Volunteered as a consultant to provide sustainable economic relief in poverty-stricken areas", "Updated and created new social media pages for marketing efforts", "Successfully created a grassroots fundraising campaign resulting in revenue of $500+ for non-profit organizations."]
+        "CompanyName": "Job #2",
+        "specialization": "Title",
+        "MonthOfBeginning": "Month Start",
+        "YearOfBeginning": "Year Start",
+        "MonthOfLeaving": "Month End",
+        "YearOfLeaving": "Year end",
+        "Achievements": ["Achievement #1", "Achievement #2", "Achievement #3", "Achievement #4"]
       },
       {
-        "CompanyName": "Dulles Cosmetic Surgery and Skin Care",
-        "specialization": "Business & Marketing Intern",
-        "MonthOfBeginning": "July",
-        "YearOfBeginning": "2017",
-        "MonthOfLeaving": "May",
-        "YearOfLeaving": "2018",
-        "Achievements": ["Utilized MDWare software to analyze and identify clients for marketing and client acquisition use", "Built and designed website and social media pages for new laser school initiatives", "Participated in customer service and client relations projects"]
+        "CompanyName": "Job #3",
+        "specialization": "Title",
+        "MonthOfBeginning": "Month Start",
+        "YearOfBeginning": "Year Start",
+        "MonthOfLeaving": "Month End",
+        "YearOfLeaving": "Year end",
+        "Achievements": ["Achievement #1", "Achievement #2", "Achievement #3", "Achievement #4"]
       }
     ],
     "skillsDescription": "",
     "skills": [
       {
-        "skillname": "Ruby"
+        "skillname": "Skill1"
       },
       {
-        "skillname": "Ruby on Rails"
+        "skillname": "Skill2"
       },
       {
-        "skillname": "React"
+        "skillname": "Skill3"
       },
       {
-        "skillname": "Redux"
+        "skillname": "Skill4"
       },
       {
-        "skillname": "Angular"
+        "skillname": "Skill5"
       },
       {
-        "skillname": "JavaScript"
+        "skillname": "Skill6"
       },
       {
-        "skillname": "PHP"
+        "skillname": "Skill7"
       },
       {
-        "skillname": "JQuery"
+        "skillname": "Skill8"
       },
       {
-        "skillname": "Heroku"
+        "skillname": "Skill9"
       },
       {
-        "skillname": "AWS"
-      },
-      {
-        "skillname": "HTML5"
-      },
-      {
-        "skillname": "CSS"
-      },
-      {
-        "skillname": "Material UI"
-      },
-      {
-        "skillname": "SQL"
-      },
-      {
-        "skillname": "Bootstrap"
-      },
-      {
-        "skillname": "Semantic UI"
-      },
-      {
-        "skillname": "JSON"
-      },
-      {
-        "skillname": "APIs"
-      },
-      {
-        "skillname": "Oracle"
-      },
-      {
-        "skillname": "AJAX"
-      },
-      {
-        "skillname": "Github"
+        "skillname": "Skill10"
       }
+      // You can add more skills here and edit their progress bar starting line 327 of ../assets/css/layout.css. When you change the skill name here you must change the name of the class to the corresponding skill in layout.css for it to display correctly
     ],
     "portfolio": [
       {
-        "name": "Takeout TruckStop",
-        "description": "Web Application",
-        "imgurl": "../assets/images/portfolio/phone.jpg",
-        "projectLink": "https://takeouttruckstop.herokuapp.com"
+        "name": "Project 1",
+        "description": "Project 1 Description",
+        "imgurl": "../assets/images/Template-images/Project1.jpg",
+        "projectLink": "Project 1 Url"
       },
       {
-        "name": "Now You Know",
-        "description": "Web Application",
-        "imgurl": "../assets/images/portfolio/project.jpg",
-        "projectLink": "https://github.com/Jberma23/NYk_FrontEnd"
+        "name": "Project 2",
+        "description": "Project 2 Description",
+        "imgurl": "../assets/images/Template-images/Project2.jpg",
+        "projectLink": "Project 2 Url"
       },
       {
-        "name": "MPT3",
-        "description": "Web Application",
-        "imgurl": "../assets/images/portfolio/project2.png",
-        "projectLink": "https://github.com/Jberma23/MPT3_frontend"
+        "name": "Project 3",
+        "description": "Project 3 Description",
+        "imgurl": "../assets/images/Template-images/Project3.png",
+        "projectLink": "Project 3 Url"
       },
       {
-        "name": "My Pet Routine",
-        "description": "Web Application",
-        "imgurl": "../assets/images/portfolio/project3.jpg",
-        "projectLink": "https://github.com/Jberma23/MyPetsRoutine"
+        "name": "Project 4",
+        "description": "Project 4 Description",
+        "imgurl": "../assets/images/Template-images/Project4.jpg",
+        "projectLink": "Project 4 Url"
       }
     ],
     "testimonials": [
       {
-        "description": "Jesse is consistently a helping hand and is hungry for knowledge",
-        "name": "Noa Havivi, Program Director"
+        "description": "Testimonial 1",
+        "name": "Name of person giving testimonial 1, Relation/Position"
       },
       {
-        "description": "Jesse is a wonderful asset to any team. He is a hard-worker who is passionate and reliable. He takes the initiative to help out whenever and wherever need. I would happily rehire him when the opportunity presented itself",
-        "name": "Leah Schwartz, Previous Employer"
+        "description": "Testimonial 2",
+        "name": "Name of person giving testimonial 2, Relation/Position"
       }
     ]
   };
+
 }
